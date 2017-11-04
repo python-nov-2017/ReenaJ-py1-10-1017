@@ -8,4 +8,26 @@
 #  If they are not identical print "The lists are not the same." 
 
 def compare_lst(my_lst_1, my_lst_2):
+    if (my_lst_1 == my_lst_2 ):
+        print "The lists are the same"
+    else:
+        print "The list are not the same"
+
+
+
+list_one = [1,2,5,6,2]
+list_two = [1,2,5,6,2]
+compare_lst(list_one, list_two)
+
+list_one = [1,2,5,6,5]
+list_two = [1,2,5,6,5,3]
+compare_lst(list_one, list_two)
+
+list_one = [1,2,5,6,5,16]
+list_two = [1,2,5,6,5]
+compare_lst(list_one, list_two)
+
+list_one = ['celery','carrots','bread','milk']
+list_two = ['celery','carrots','bread','cream']
+compare_lst(list_one, list_two)    
     
